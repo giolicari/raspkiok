@@ -1,4 +1,4 @@
-# raspkiok
+# raspkiosk
 raspberry kiosk service
 sudo nano /home/pi/kiosk.sh
 sudo nano /lib/systemd/system/kiosk.service
