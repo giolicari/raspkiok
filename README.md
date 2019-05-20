@@ -7,9 +7,9 @@ attivare i servizi
 sudo systemctl enable kiosk.service
 sudo systemctl start kiosk.service
 
-installazione
-sudo apt-get install xdotool unclutter sed
+installazione pacchetti
+sudo apt-get install xdotool unclutter sed xscreensaver
 
-rimuovere software raccomandati per rasp pi3
+rimuovere software raccomandati per rasp pi 3
 sudo apt-get clean
 sudo apt-get autoremove -y
