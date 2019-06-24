@@ -1,7 +1,7 @@
 # raspkiosk<br>
 raspberry kiosk service<br>
 sudo nano /home/pi/kiosk.sh<br>
-sudo nano /lib/systemd/system/kiosk.service<br>
+sudo cp kiosk.service /lib/systemd/system/<br>
 
 ### attivare i servizi<br>
 sudo systemctl enable kiosk.service<br>
